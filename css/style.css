@@ -1,0 +1,624 @@
+html,body{
+margin: 0 auto;
+font-family: sans-serif;
+}
+.container{
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.homepage{
+	padding: 10px 60px;
+	background-image: url(../images/homepic.jpg);         	
+	color: white;
+	position: relative;
+}
+
+.navbar img{
+	margin-top: 20px;	
+display: inline-block;
+width: 20%;
+width: 120px;
+}
+.navbar ul{
+	text-align: right;
+	vertical-align: top;
+	margin-top: 30px; 
+	margin-left: 5.5em;
+	word-spacing: 25px;
+display: inline-block;
+width: 70%;
+font-size: 18px;
+}
+.navbar li:hover{
+	color: crimson;
+}
+.navbar button{
+	padding: 10px 5px;
+	font-size: 18px;
+	color: crimson;
+	font-weight: 100;
+	border-radius: 5px;
+	border: none;
+}
+.navbar button:hover{
+	color: crimson;
+}
+.navbar li{
+	display: inline-block;
+ list-style: none;
+}
+.home{
+	width: 65%;	
+}
+.home h1{
+	font-size: 66px;
+	font-weight: 750;
+	margin-bottom: 10px;
+}
+.home h2{
+	display: inline-block;
+	color: crimson;
+	font-size: 35px;
+	margin: 10px auto;
+	font-weight: 200;
+}
+.home h3{
+	display: inline-block;
+	font-size: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	margin-left: 15px;
+	font-weight: 200;
+}
+.home h5{
+	font-size: 25px;
+	text-transform: capitalize;
+	margin: 10px auto;
+	font-weight: 200;
+}
+.buyapp button{
+	text-align:center;
+	padding: 13px 25px;
+	font-size:  17px;
+	text-transform: uppercase;
+	margin-right: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: crimson;
+	color: white;
+	word-spacing: 5px;
+	margin-top: 5em;
+	margin-bottom: 10em; 
+}
+.features{
+	background-image: url(../images/offwhite.jpg);
+	text-align: center;
+}
+.phonehead{
+	text-align: center;
+	padding: 30px 10em;
+}
+.phonehead h1{
+	font-size: 40px;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: crimson;
+	margin-bottom: 20px;
+}
+.phonehead span{
+	border:0px solid crimson;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	position: relative;
+
+}
+.phonehead span::before{
+	position: absolute;
+	content:'';
+	width: 70px;
+	height: 1px;
+	background-color: red;
+	right: 24px;
+	top: 12px;
+}
+.phonehead span::after{
+	position: absolute;
+	content:'';
+	width: 70px;
+	height: 1px;
+	background-color: red;
+	left: 24px;
+	top: 12px;
+}
+.phonehead i{
+	border: 1.5px solid crimson;
+	padding: 5px;
+	border-radius: 360px;
+	color: crimson;
+}
+.phonehead p{
+	margin-top: 50px;
+	font-size: 19px;
+	color: #4f4f4f;
+}
+.tablepara{
+	word-spacing: 90px;
+	text-align:left;
+	margin-left: 45px;
+}
+.forms{
+	position: relative;
+}
+.forms::before{
+	content: "";
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	background-color: indigo;
+	bottom: -20px;
+	transform: rotate(45deg);
+}
+.tableicons{
+	background-color: crimson;
+	text-align: center;
+}
+.tableicons i{
+	font-size: 35px;
+	border: 1px white solid;
+	color: white;
+	padding: 35px;
+	border-radius: 360px;
+	margin-right: 0;
+}
+.phone , .phonetable{
+	display: inline-block;	
+}
+.phone{
+	display: inline-block;
+width: 25%;
+margin-left:50px ; 
+}
+.phonetable{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+}
+#tablearrow{
+	display: inline-block;
+	vertical-align: top;
+	width: 5%
+}
+#tvcolor{
+	background-color: indigo;
+}
+#tablearrow{
+	margin-left: 51em;
+	background-color: crimson;
+	color: white;
+	text-align: center;
+	padding: 5px 20px;
+	border: none;
+}
+.feaphopa {
+	text-align: left;
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: #4f4f4f;
+}
+#phonepara{
+	text-align: left;
+	color: #4f4f4f;
+}
+.featuresdots i{
+	margin-right:  20px;
+	color: white;
+	margin-bottom: 6rem;
+}
+#dotcrim{
+	color: crimson;
+}
+.rating{
+	background-color: #f7436d;
+	color: white;
+	text-align: center;
+	padding: 70px 50px;
+}
+.ratingdv{
+	display: inline-block;
+	width: 23%;
+	text-transform: capitalize;	
+}
+.rating i{
+	font-size: 45px;
+	border: 1px solid white;
+	border-radius: 360px;
+	padding: 27px;
+	margin-bottom: 0; 
+}
+.rating h1{
+	font-size: 50px;
+	margin: 10px auto;
+}
+.rating h2{
+	font-size: 20px;
+	margin: 10px auto;
+	font-weight: 150;
+}
+.howtowork{
+
+	padding: 70px;
+	background-image: url(../images/howto.jpg);
+	color: white;
+}
+.workheading{
+	text-align: center;
+	padding-left:  11rem;
+	padding-right:   11rem;
+}
+.workheading h1{
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 250;
+	margin-bottom: 20px;
+}
+.workheading span{
+	border:0px solid crimson;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	position: relative;
+
+}
+.workheading span::before{
+	position: absolute;
+	content:'';
+	width: 70px;
+	height: 1px;
+	background-color: white;
+	right: 25px;
+	top: 12px;
+}
+.workheading span::after{
+	position: absolute;
+	content:'';
+	width: 70px;
+	height: 1px;
+	background-color: white;
+	left: 25px;
+	top: 12px;
+}
+.workheading i{
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 360px;
+	margin-bottom: 50px;
+}
+.workheading p{
+	line-height: 1.5;
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+.threesec {
+	display: inline-block;
+	width: 31%;
+	margin-top: 100px;
+	margin: 10px;
+}
+.threesec i{
+	font-size: 54px;
+	vertical-align: top;
+	margin-bottom: 5rem;
+}
+.threesecwri{
+	vertical-align: bottom;
+}
+.threesecwri h1{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+}
+.howtphone{
+	margin: 60px;
+}
+.plan123{
+	background-image: url(../images/offwhite.jpg);
+	padding: 65px;
+}
+.phonehead span{
+	border:0px solid crimson;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	position: relative;
+
+
+}
+.choseplan123{
+	border: 5px black hidden;
+	border-radius: 30px;
+	margin: 21px;
+}
+.planprice{
+	background-image: url(../images/graphic1.jpg);
+	background-size: cover;
+	padding: 10px 40px;
+	border-radius: 10px;
+color: white;
+text-align: center;
+}
+.planprice h3{
+font-size: 22px;
+text-transform: uppercase;
+font-weight: 200;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.planprice h1{
+	font-size: 55px;
+	margin: 5px;	
+}
+.planprice h5{
+	font-size: 20px;
+	font-weight: 200;
+	margin: 5px;
+}
+.plandetails{
+	background-color: white;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 20px;
+}
+.plandetails i{
+	line-height: 2;
+	font-weight: 600;
+	color: navy;
+}
+.plandetails a{
+	font-weight: 200;
+	text-transform: capitalize;
+    color: gray;
+}
+.plandetails button{
+	text-transform: capitalize;
+	padding: 10px 25px;
+	font-size: 18px;
+	background-color: crimson;
+	color: white;
+	font-weight: 100;
+	border-radius: 10px;
+	border: none;
+	margin: 30px;
+}
+.getappfree{
+	text-align: center;
+}
+.getfree span{
+	border:0px solid crimson;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	position: relative;
+
+}
+.getfree span::before{
+	position: absolute;
+	content:'';
+	width: 70px;
+	height: 1px;
+	background-color: white;
+	right: 24px;
+	top: 12px;
+}
+.getfree span::after{
+	position: absolute;
+	content:'';
+	width: 70px;
+	height: 1px;
+	background-color: white;
+	left: 24px;
+	top: 12px;
+}
+
+
+.getappfree button {
+	margin: 20px;
+    background-color: white;
+    color: crimson;
+    padding: 20px 55px;
+    border: none;
+    border-radius: 6px;  
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.freeapp{
+	background-image: url(../images/laptop2.jpg), linear-gradient( rgba(200,5,64,0.5),rgba(200,5,64,0.5));
+    background-blend-mode: overlay;
+    background-size: 100%;
+    text-align: center;
+    margin-top: 0;
+    padding: 140px 120px 80px 120px;
+}
+.getfree h1{
+	font-size: 40px;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 0;
+    margin-bottom: 20px;
+}
+.getfree i{
+	color: white;
+	border: 1px white solid;
+	border-radius: 360px;
+	padding: 5px;
+}
+.getfree p{
+	color: white;
+	margin-top: 70px;
+	font-size: 19px;
+	line-height: 2;
+}
+.feedback{
+	background-image: url(../images/offwhite.jpg);
+	text-align: center;
+	padding: 50px 100px 80px 120px;
+}
+.phonehead span{
+	border:0px solid crimson;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	position: relative;
+}
+.alexainfo{
+	margin-right: 12em;
+}
+.alexapic, .alexainfo{
+	display: inline-block;
+	width: 15%;
+	margin: 30px 0;
+}
+.alexa img{
+	vertical-align: bottom;
+}
+.alexainfo{
+	vertical-align: top;
+	text-align: left;
+}
+.alexainfo h4{
+	margin-top: 5px;
+   font-size: 23px;
+   text-transform: uppercase;
+   font-weight: 200;
+   color: #4f4f4f;
+   margin-bottom: 10px;
+}
+.alexainfo h5{
+	text-transform: capitalize;
+  margin-top: 10px;
+   color: #4f4f4f;
+   margin-bottom: 10px;
+}
+.alexainfo i{
+	font-size: 19px;
+	border: 1px white hidden;
+	background-color: crimson;
+	border-radius: 360px;
+	padding: 5px;
+	color: white;
+	margin-right: 10px;
+	margin-top: 17px;
+}
+.firslet span{
+	padding-left: 80px;
+	padding-right: 80px;
+	font-size: 90px;
+	font-weight: 600; 
+
+}
+.alextable span{
+	background-color: white;
+	font-size: 35px;
+	font-weight: 500;
+padding: 30px 15px;
+margin-left: 20px;
+}
+.alextable {
+margin-top: 5em;
+
+}
+.intel{
+	background-image: url(../images/101.jpg);
+	height: 80vh;
+	width: 100%;
+	font-size: 20px;
+	color:white; 
+	text-align: center;
+	padding-top: 100px;
+}
+.intel span{
+	border:0px solid crimson;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	position: relative;
+
+}
+.intel  span::before{
+	position: absolute;
+	content:'';
+	width: 70px;
+	height: 1px;
+	background-color: white;
+	right: 24px;
+	top: 12px;
+}
+.intel i{
+	border:1px solid white;
+	padding: 5px;
+	border-radius: 360px;
+	color: white;
+}
+.intel  span::after{
+	position: absolute;
+	content:'';
+	width: 70px;
+	height: 1px;
+	background-color: white;
+	left: 24px;
+	top: 12px;
+}
+.insert{
+	border-bottom: 15px;
+	border-radius: 20px;
+	width: 50%;
+	height: 5vh;
+	padding-left: 20px;
+	margin-top: 30px;
+	padding: 0.3em; 
+}
+.end{
+	border-bottom: 15px;
+	border-radius: 20px;
+	background-color: #673bb7;
+	color:white;
+	padding: 0.3em;
+}
+.lastsec{
+	background-image: url(../images/100.jpg);
+	color: white;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	display: inline-block;
+	width: 100%;
+}
+.lastsec span{
+	width: 60%;
+	padding-right: 4em;
+}
+.lastsec i{
+	font-size: 1rem;
+	font-style: italic;
+	display: inline-block;
+	width: 1%;
+}
+.lastsec footer{
+	padding-left: 5em;
+	font-size: 1.2em;
+}
+
+
+
