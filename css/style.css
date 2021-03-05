@@ -41,7 +41,8 @@ font-size: 18px;
 	border: none;
 }
 .navbar button:hover{
-	color: crimson;
+	color: black;
+	background-color:white;
 }
 .navbar li{
 	display: inline-block;
@@ -89,6 +90,10 @@ font-size: 18px;
 	word-spacing: 5px;
 	margin-top: 5em;
 	margin-bottom: 10em; 
+}
+.buyapp button:hover{
+	background-color: black;
+
 }
 .features{
 	background-image: url(../images/offwhite.jpg);
@@ -396,6 +401,9 @@ margin-bottom: 5px;
 	border: none;
 	margin: 30px;
 }
+.plandetails button:hover{
+	background-color:black;
+}
 .getappfree{
 	text-align: center;
 }
@@ -438,6 +446,9 @@ margin-bottom: 5px;
     border-radius: 6px;  
     font-size: 20px;
     text-transform: uppercase;
+}
+.getappfree button:hover{
+	background-color:rgb(51, 49, 49);
 }
 .freeapp{
 	background-image: url(../images/laptop2.jpg), linear-gradient( rgba(200,5,64,0.5),rgba(200,5,64,0.5));
@@ -483,6 +494,9 @@ margin-bottom: 5px;
 }
 .alexainfo{
 	margin-right: 12em;
+}
+.alexainfo i:hover{
+	background-color:blue;
 }
 .alexapic, .alexainfo{
 	display: inline-block;
@@ -610,10 +624,13 @@ margin-top: 5em;
 	padding-right: 4em;
 }
 .lastsec i{
-	font-size: 1rem;
+	font-size: 20px;
 	font-style: italic;
 	display: inline-block;
 	width: 1%;
+}
+.lastsec i:hover{
+	background-color: blue;
 }
 .lastsec footer{
 	padding-left: 5em;
